@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="  Scenes">
+    <Position X="17.386" Y="0.5" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Managers, Critters, &amp; Assets">
+    <Position X="16.277" Y="3.651" Height="0.291" Width="1.773" />
+  </Comment>
+  <Comment CommentText="Controllers">
+    <Position X="4.8" Y="2.349" Height="0.291" Width="0.812" />
+  </Comment>
+  <Comment CommentText="Observers">
+    <Position X="5.816" Y="5.782" Height="0.291" Width="0.761" />
+  </Comment>
+  <Comment CommentText="Factories">
+    <Position X="3.399" Y="10.268" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="   Pools">
+    <Position X="8.101" Y="10.267" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Command Pattern">
+    <Position X="14.531" Y="7.816" Height="0.291" Width="1.214" />
+  </Comment>
+  <Comment CommentText="Flyweight">
+    <Position X="20.767" Y="7.712" Height="0.291" Width="0.801" />
+  </Comment>
+  <Comment CommentText="Finite State Machine">
+    <Position X="31.587" Y="4.716" Height="0.291" Width="1.365" />
+  </Comment>
+  <Class Name="Flea" Collapsed="true">
+    <Position X="13.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIQACABEAYAQAg4QAAGBAIAZA4DAAGwAAAACAAAQAAA=</HashCode>
+      <FileName>Flea.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scorpion" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAABAAAIAIBgiACgADAMAZAEDAAGwAAgCCAAAABAE=</HashCode>
+      <FileName>Scorpion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spider" Collapsed="true">
+    <Position X="15.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIQBAgSAAMAABgiAAAIBAAAZAADABGwAAQAKBCAQAAE=</HashCode>
+      <FileName>Spider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mushroom" Collapsed="true">
+    <Position X="17.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIABCAgAoIAACggFAAANQgAIABDAACACZAAiACAAAAA=</HashCode>
+      <FileName>Mushroom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MushroomField" Collapsed="true">
+    <Position X="17.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAggAUAAAAAQAAQADAOABBCBCUAkAmAATAAAQAAA=</HashCode>
+      <FileName>MushroomField.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MushroomHeal" Collapsed="true">
+    <Position X="17.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQBAAAAkAAAAgiAAAAAAAAAAABAAGQAAAABAAAAAAA=</HashCode>
+      <FileName>MushroomHeal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bullet" Collapsed="true">
+    <Position X="19.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABEBAAIAABgAAAIKAIAABAITAgAAAAACAAEAQAAQ=</HashCode>
+      <FileName>Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Explosion" Collapsed="true">
+    <Position X="19.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAQBAAAAEAAAAggAAEAAAAAcAABAAGQAAAACAAAAAAA=</HashCode>
+      <FileName>Explosion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="19.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIWAEAAABYCABwjIBCQAIIkxEQDEMAAIQAoAgwAQACE=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FirstScene" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Game Components\FirstScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOverScene" Collapsed="true">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>GameOverScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerScene" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAQAAAACAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>PlayerScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AIController" Collapsed="true">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <InheritanceLine Type="GnomeControllerBase" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="3.441" />
+        <Point X="5.25" Y="3.7" />
+        <Point X="4.375" Y="3.7" />
+        <Point X="4.375" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QIAAAgAAAIAAAhAASAAAAACAAAFAIAACgABAAEBAAAA=</HashCode>
+      <FileName>AIController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GnomeControllerBase" Collapsed="true">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgAAAIAAABAAAAAAAACAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GnomeControllerBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanController" Collapsed="true">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <InheritanceLine Type="GnomeControllerBase" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="3.441" />
+        <Point X="5.25" Y="3.7" />
+        <Point X="6.188" Y="3.7" />
+        <Point X="6.188" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAgAAAIAAABAAAAAAAACAAABAIAACAgAAAEAAAAA=</HashCode>
+      <FileName>HumanController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CritterManager" Collapsed="true">
+    <Position X="14.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAEACBICAAgJAACQAAABSCAUQAgAQQAhAUAgAEA=</HashCode>
+      <FileName>CritterManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CritterSpawner" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAFAAAAAEAAAAAAAAEQAAAAAAEAACAAAABAAAEACAA=</HashCode>
+      <FileName>CritterSpawner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HUDManager" Collapsed="true">
+    <Position X="10.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAwACAgAAAAAAAAEAIgAAAAAiAAIAAAQAAkgAQAAAA=</HashCode>
+      <FileName>HUDManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MFObserver" Collapsed="true">
+    <Position X="4" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAAAAEAAQBAAAAAAAAAEAA=</HashCode>
+      <FileName>MFObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer" Collapsed="true">
+    <Position X="5.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAABAAAIACAA=</HashCode>
+      <FileName>Observer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerDeathObserver" Collapsed="true">
+    <Position X="2.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIABBAAAEAAAAAAAAAAAAAAAAACAQABAAAgAAAAAAAA=</HashCode>
+      <FileName>PlayerDeathObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerObserver" Collapsed="true">
+    <Position X="5.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgAAAEAAAAAAACAAAAAQAhAAAAQBAAEAAAAAAAAA=</HashCode>
+      <FileName>PlayerObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneSwitchObserver" Collapsed="true">
+    <Position X="8.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAQAAAAAABAAAAAAAAAEAA=</HashCode>
+      <FileName>SceneSwitchObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaveObserver" Collapsed="true">
+    <Position X="7" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAARAAAAAAAAQAAAAAAAAAAAAAAAAABAAACAAAAAAAA=</HashCode>
+      <FileName>WaveObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerManager" Collapsed="true">
+    <Position X="19.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBFhCigAAUAAAkCAIhAAhgAAEAJAUAgkAAEEiDg=</HashCode>
+      <FileName>PlayerManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerPool" Collapsed="true">
+    <Position X="7" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAEAAAAAgAAAAAAAQAAkAAAAAAA=</HashCode>
+      <FileName>PlayerPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CentipedeFactory" Collapsed="true">
+    <Position X="3.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAiQAAAQAAEAAiQEAAACIDENgIAAAAIAQAAkEHEAEAA=</HashCode>
+      <FileName>CentipedeFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CentipedePool" Collapsed="true">
+    <Position X="8.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAABgAIAAIAA=</HashCode>
+      <FileName>CentipedePool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplosionFactory" Collapsed="true">
+    <Position X="3.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAIAAAAAAAAAAAAAAAAAA0AAAASAAAQCEkAAAAgAA=</HashCode>
+      <FileName>ExplosionFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplosionPool" Collapsed="true">
+    <Position X="7" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAEAAAAABACAAAAAAAAAAAAAAoAAAAAAA=</HashCode>
+      <FileName>ExplosionPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FleaFactory" Collapsed="true">
+    <Position X="2.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAAAUCABAAAAgAAAAgAQAAAAAAQAAgQBAkAACAAAA=</HashCode>
+      <FileName>FleaFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FleaPool" Collapsed="true">
+    <Position X="8.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAEAIgAAAAAAAAgQAAAAAA=</HashCode>
+      <FileName>FleaPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MushroomFactory" Collapsed="true">
+    <Position X="2.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAACggBABAAAAgQAAAAAAAAAAAASQAAkAACAAAQ=</HashCode>
+      <FileName>MushroomFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MushroomPool" Collapsed="true">
+    <Position X="7" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAQAACAAAAAAAAAAAQAIgAAAAAAA=</HashCode>
+      <FileName>MushroomPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScorpionFactory" Collapsed="true">
+    <Position X="3.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAAAAAAgAAQQABAAAAAAAAAAAAEACAQRBlAAAABAA=</HashCode>
+      <FileName>ScorpionFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScorpionPool" Collapsed="true">
+    <Position X="8.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAEAAAAAAAAAAAAAACAgAACgAAAAAAA=</HashCode>
+      <FileName>ScorpionPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpiderFactory" Collapsed="true">
+    <Position X="2.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEEIABAAAAAEQAAAAAAAAQQAEAEAAAAQABkBAAAAkA=</HashCode>
+      <FileName>SpiderFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpiderPool" Collapsed="true">
+    <Position X="7.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIAAAAAAAAAAAAAAABgAAAAAAEAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>SpiderPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandScore" Collapsed="true">
+    <Position X="13.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommandScore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandScoreValue" Collapsed="true">
+    <Position X="13.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommandScoreValue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreManager" Collapsed="true">
+    <Position X="15.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFCAAEAACMAAAAAAFAEAAEAAAACAAgBAAAGBAAAAAA=</HashCode>
+      <FileName>ScoreManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundManager" Collapsed="true">
+    <Position X="12" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAUEAAANAAIBAQAAEAAAAAAAAkAgAQAAkAAAAAAA=</HashCode>
+      <FileName>SoundManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Subject" Collapsed="true">
+    <Position X="5.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAACAAAAAIBAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wave" Collapsed="true">
+    <Position X="21" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAVAQQGABBEEABAAAICAIAACSFADQGAAAoAAAAIBhA=</HashCode>
+      <FileName>Wave.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaveManager" Collapsed="true">
+    <Position X="21" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAgCAAQAAABIAAAAAQAAkAAAAAEA=</HashCode>
+      <FileName>WaveManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameController" Collapsed="true">
+    <Position X="17" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEAQEAABBgAAEAACAUAAAkEAAAAAQQQAAkQAAQAAA=</HashCode>
+      <FileName>GameController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOverTimer" Collapsed="true">
+    <Position X="17.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>GameOverTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighScoreManager" Collapsed="true">
+    <Position X="15.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAkAAIAQAAAAkAAIAAAAAAAAAAACAAQYA0AAAIIAA=</HashCode>
+      <FileName>HighScoreManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FontGlyph" Collapsed="true">
+    <Position X="21.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAwAAAAgAAAAAAIAAAAAACAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>FontGlyph.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteSheet" Collapsed="true">
+    <Position X="19.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAgAAAAIEAGACAAAIAAAAAAQAAAEEA=</HashCode>
+      <FileName>SpriteSheet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeatFont" Collapsed="true">
+    <Position X="19.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAABAAAEAAAAAAAAAAAAgAAAAAgA=</HashCode>
+      <FileName>NeatFont.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOverWidget" Collapsed="true">
+    <Position X="17.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAEAAAAgAAgAAAAoAAAABQAAAAAAQRAAkQAAAAAA=</HashCode>
+      <FileName>GameOverWidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameText" Collapsed="true">
+    <Position X="21.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAgAAgAAgAAAAgAAIAAAAAAAAAQQAAAAAAgAAA=</HashCode>
+      <FileName>GameText.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighScoreWidget" Collapsed="true">
+    <Position X="19" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGAACAAAAAAAWAgQAIIAAAAAACAAQAIkAIAEAIA=</HashCode>
+      <FileName>HighScoreWidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LivesWidget" Collapsed="true">
+    <Position X="20.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEAAAAAABAAAAAghAAAAAiAEACAQQAIkIAAEAAA=</HashCode>
+      <FileName>LivesWidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatentWidget" Collapsed="true">
+    <Position X="22" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAIAAIABCAACAgAAAAAACAgAAAQRAIkAAQAAQA=</HashCode>
+      <FileName>PatentWidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreWidget" Collapsed="true">
+    <Position X="23.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQAEAAEAAAQgAAAAwAAIAAQBAAICAQQAIkECAAAEA=</HashCode>
+      <FileName>ScoreWidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleText" Collapsed="true">
+    <Position X="21.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAgAAAAgAAAAAAIAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>SimpleText.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Centipede" Collapsed="true">
+    <Position X="22.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIQBGwAAwIAiMwwAIAAwAai/EELEAGIAAABCMAIgEkQ=</HashCode>
+      <FileName>Centipede.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DownwardLeft" Collapsed="true">
+    <Position X="27.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAIAAAAAAAAAgAABA=</HashCode>
+      <FileName>DownwardLeft.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DownwardRight" Collapsed="true">
+    <Position X="29.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAAAAAAAgAABA=</HashCode>
+      <FileName>DownwardRight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSM" Collapsed="true">
+    <Position X="31.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQgAAABAAAAAgAAQACAAAAAAQIABEAAAAAA=</HashCode>
+      <FileName>FSM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovementCollection" Collapsed="true">
+    <Position X="33.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAACAAAAGgAQAAAAAAAAAAAA=</HashCode>
+      <FileName>MovementCollection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveState" Collapsed="true">
+    <Position X="31.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABCEAAAAAAAAAAASgAABA=</HashCode>
+      <FileName>MoveState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoisonLeft" Collapsed="true">
+    <Position X="30.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAABA=</HashCode>
+      <FileName>PoisonLeft.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoisonRight" Collapsed="true">
+    <Position X="32.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAABA=</HashCode>
+      <FileName>PoisonRight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SwitchToDownLeft" Collapsed="true">
+    <Position X="27.75" Y="9.5" Width="1.5" />
+    <InheritanceLine Type="MoveState" ManuallyRouted="true">
+      <Path>
+        <Point X="32.25" Y="6.562" />
+        <Point X="32.25" Y="7.125" />
+        <Point X="29.38" Y="7.125" />
+        <Point X="29.38" Y="9.125" />
+        <Point X="28.5" Y="9.125" />
+        <Point X="28.5" Y="9.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAABA=</HashCode>
+      <FileName>SwitchToDownLeft.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SwitchToDownRight" Collapsed="true">
+    <Position X="29.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAEAAAAAAAAAAAAgAABA=</HashCode>
+      <FileName>SwitchToDownRight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SwitchToUpLeft" Collapsed="true">
+    <Position X="33.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAABA=</HashCode>
+      <FileName>SwitchToUpLeft.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SwitchToUpRight" Collapsed="true">
+    <Position X="35.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAABA=</HashCode>
+      <FileName>SwitchToUpRight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpLeft" Collapsed="true">
+    <Position X="33.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAABA=</HashCode>
+      <FileName>UpLeft.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpRight" Collapsed="true">
+    <Position X="35.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAABA=</HashCode>
+      <FileName>UpRight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Offset" Collapsed="true">
+    <Position X="29.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>MovementCollection.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
